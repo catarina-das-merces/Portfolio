@@ -428,6 +428,10 @@ table {
 	margin: 0 auto;
 }
 
+.follow_content {
+	justify-content: center;
+}
+
 .row .row {
 	width: auto;
 	margin-left: calc(var(--gutter) * -1);
