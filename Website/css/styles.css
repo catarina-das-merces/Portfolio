@@ -424,6 +424,7 @@ table {
 .row {
 	display: flex;
 	flex-flow: row wrap;
+
 	width: min(92%, var(--width-grid-max));
 	margin: 0 auto;
 }
@@ -3868,6 +3869,7 @@ td:last-child {
  * ## folio entries 
  * ------------------------------------------------------------------- */
 .folio-entries .entry {
+	gap: 10px;
 	flex: none;
 	width: 50%;
 	margin: 0;
@@ -3884,7 +3886,7 @@ td:last-child {
 .folio-entries .entry__link img {
 	vertical-align: bottom;
 	transition: all 0.3s ease-in-out;
-	margin: 0;
+	margin: 15px;
 }
 
 .folio-entries .entry__link::before {
